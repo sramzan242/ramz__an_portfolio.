@@ -654,6 +654,9 @@ footer span a:hover{
 }
 
 @media (max-width: 690px) {
+    canvas{
+        display: none;
+    }
     .max-width{
         padding: 0 23px;
     }

@@ -797,6 +797,9 @@ footer span a:hover {
 }
 
 @media (max-width: 690px) {
+    canvas{
+        display: none;
+    }
     .max-width {
         padding: 0 23px;
     }
@@ -814,7 +817,7 @@ footer span a:hover {
     }
 
     .home {
-        height: 700vw;
+        height: 750vw;
     }
 
     .logo {
@@ -944,7 +947,7 @@ footer span a:hover {
         position: relative;
         top: 30px;
         left: 10px;
-        margin-left: -8vw;
+        margin-left: -10vw;
         align-items: center;
         display: inline-flex;
     }
