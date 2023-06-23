@@ -433,7 +433,7 @@ gsap.from(".contact .right button",{
       end:"top 70%",
       scrub:4,
       pin:true,
-   markers:true
+  //  markers:true
   },
   opacity:0,
   x:-500,
