@@ -119,7 +119,7 @@ section .title::after{
     z-index: 101;
   }
   .loader__container__counter {
-    font-size: 140px;
+    font-size: 100px;
     font-weight: 700;
     margin: 0;
   }
