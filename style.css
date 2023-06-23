@@ -923,8 +923,19 @@ footer span a:hover{
     }
 
     .teams{
-        height: 178vw;
-    }
+        /* height: 178vw; */
+    translate: none;
+    rotate: none;
+    scale: none;
+    inset: 0px auto auto 0px;
+    margin: 0px;
+    max-width: 355.2px;
+    width: 355.2px; 
+    max-height: 632.25px;
+     height: 632.25px;
+    padding: 0px 0px;
+    transform: translate(0px, 0.021px);
+}
 
     .teams .elem-div {
         display: flex;
