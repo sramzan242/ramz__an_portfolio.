@@ -40,7 +40,7 @@ section{
     padding: 0 80px;
     margin: auto;
 }
-.about, .achievement, .skills, .teams, .contact, footer{
+.about, .achievement, .skills, .skills, .contact, footer{
     font-family: "Audiowide", sans-serif;
 }
 .about .about-content,
@@ -62,8 +62,8 @@ section .title{
     text-align: center;
     font-size: 60px;
     font-weight: 1000;
-    margin-bottom: 60px;
-    padding-bottom: 20px;
+    margin-bottom: 50px;
+    padding-bottom: 0px;
     /* font-family: 'Ubuntu', sans-serif; */
     font-family: "Audiowide", sans-serif;
 
@@ -225,6 +225,7 @@ nav{
         -webkit-clip-path: circle(50px at 90% -10%);
         transition: all 1s ease-out;
         pointer-events: none;
+        margin-top: -10vw;
     }
     .nav-links.open{
         clip-path: circle(1000px at 90% -10%);
@@ -486,11 +487,11 @@ nav{
 
 
 /* .projects .title::before,
-.teams .title::before{
+.skills .title::before{
     background: #fff;
 } */
 .projects .title::after,
-.teams .title::after{
+.skills .title::after{
 background: #111;
     /* content: "what i provide"; */
 }
@@ -527,8 +528,8 @@ background: #111;
 }
 
 
-/* teams section styling */
-.teams{
+/* skills section styling */
+.skills{
     position: relative;
     background: url("https://yalantis.com/uploads/ckeditor/pictures/2916/dribble_perfect.gif") no-repeat center;
     background-color: black;
@@ -539,17 +540,17 @@ background: #111;
     height: 50vw;
     
 }
-/* .teams .title::after{
+/* .skills .title::after{
     content: "what people says about him";
 } */
-.teams h3{
+.skills h3{
     position: relative;
     margin-top: -42px;
     text-align: center;
     font-size: 30px;
 }
 
-.teams .elem-div{
+.skills .elem-div{
 display: flex;
 flex-wrap: wrap;
 align-items: center;
@@ -562,7 +563,7 @@ justify-content: space-between;
     /* background-color: #f1f1f1; */
 
 }
-.teams .image{
+.skills .image{
 
     display: flex;
     align-items: center;
@@ -572,7 +573,7 @@ height: 120px;
 border-radius: 20px;
 background-color: #fff;
 }
-.teams .image img{
+.skills .image img{
     width: 90%;
     height: 90%;
 }
@@ -922,22 +923,22 @@ footer span a:hover{
         text-align: center ;
     }
 
-    .teams{
+    .skills{
         /* height: 178vw; */
+        width: 100vw;
     translate: none;
     rotate: none;
     scale: none;
     inset: 0px auto auto 0px;
     margin: 0px;
-    max-width: 355.2px;
-    width: 355.2px; 
+    /* width: 355.2px;  */
     max-height: 632.25px;
      height: 632.25px;
     padding: 0px 0px;
     transform: translate(0px, 0.021px);
 }
 
-    .teams .elem-div {
+    .skills .elem-div {
         display: flex;
         /* flex-wrap: wrap; */
         align-items: center;
@@ -949,7 +950,7 @@ footer span a:hover{
             margin-left: 20px;
             /* background-color: #DE463B; */
     }
-    .teams .image{
+    .skills .image{
         display: flex;
         align-items: center;
         justify-content: center;
@@ -958,7 +959,7 @@ footer span a:hover{
     border-radius: 5px;
     background-color: #fff;
     }
-    .teams .image img{
+    .skills .image img{
         width: 90%;
         height: 90%;
     }

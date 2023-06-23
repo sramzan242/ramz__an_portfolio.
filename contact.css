@@ -183,6 +183,7 @@ nav{
         -webkit-clip-path: circle(50px at 90% -10%);
         transition: all 1s ease-out;
         pointer-events: none;
+        margin-top: -10vw;
     }
     .nav-links.open{
         clip-path: circle(1000px at 90% -10%);
@@ -760,7 +761,7 @@ footer span a:hover{
     }
     .contact h3{
         position: relative;
-        margin-top: -50px;
+        margin-top: -30px;
         text-align: center;
         font-size: 30px;
     }

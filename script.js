@@ -427,10 +427,10 @@ hamburger.addEventListener('click', ()=>{
     duration:1,
     ease:Expo.easeInOut
   });
-  gsap.from(".teams .title",{
+  gsap.from(".skills .title",{
     scrollTrigger:{
         scroller:"body",
-        trigger:".teams",
+        trigger:".skills",
         start:"top 60%",
         end:"top 80%",
         scrub:2,
@@ -443,10 +443,10 @@ hamburger.addEventListener('click', ()=>{
     stagger:.1,
     ease: "easeinOut"
   });
-  gsap.from(".teams  h3",{
+  gsap.from(".skills  h3",{
     scrollTrigger:{
         scroller:"body",
-        trigger:".teams",
+        trigger:".skills",
         start:"top 60%",
         end:"top 80%",
         scrub:2,
@@ -462,7 +462,7 @@ hamburger.addEventListener('click', ()=>{
   gsap.from(".elem-div .image",{
     scrollTrigger:{
         scroller:"body",
-        trigger:".teams",
+        trigger:".skills",
         start:"top 20%",
         end:"top 60%",
         scrub:4,
@@ -606,7 +606,7 @@ hamburger.addEventListener('click', ()=>{
     scrollTrigger:{
         scroller:"body",
         trigger:".contact",
-        start:"top 10%",
+        start:"top 20%",
         end:"top 30%",
         scrub:4,
         pin:true,
@@ -619,18 +619,3 @@ hamburger.addEventListener('click', ()=>{
     // stagger:.5,
     ease: Expo.easeinOut
   });
-//   document.querySelectorAll(".home-content")
-// .forEach(function(elem){
-//   gsap.from(elem, {
-//     // scrollTrigger:{
-//     //     trigger:elem,
-//     //     start:"30% 95%",
-//     //     markers: true,
-//     //   },
-//     y:50,
-//     opacity:0,
-//     duration:2,
-//     delay:4.5,
-//     ease:Expo.easeInOut
-// })
-// })

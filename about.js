@@ -429,11 +429,11 @@ gsap.from(".contact .right button",{
   scrollTrigger:{
       scroller:"body",
       trigger:".contact",
-      start:"top 30%",
-      end:"top 40%",
+      start:"top 60%",
+      end:"top 70%",
       scrub:4,
       pin:true,
-  //  markers:true
+   markers:true
   },
   opacity:0,
   x:-500,

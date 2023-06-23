@@ -320,36 +320,12 @@ hamburger.addEventListener('click', ()=>{
   animateHomePage();
 
 
-
-
-
-
-
-
-
-//   gsap.from(".contact h3",{
-//     scrollTrigger:{
-//         scroller:"body",
-//         trigger:".contact",
-//         start:"top 50%",
-//         end:"top 70%",
-//         scrub:4,
-//         pin:true,
-//     //  markers:true
-//     },
-//     opacity:0,
-//     x: -500,
-//     duration:1,
-//     // delay:5,
-//     // stagger:.5,
-//     ease: Expo.easeinOut
-//   });
   gsap.from(".wrapper ",{
     scrollTrigger:{
         scroller:"body",
         trigger:".contact",
-        start:"top 70%",
-        end:"top 80%",
+        start:"top 60%",
+        end:"top 70%",
         scrub:4,
         pin:true,
     //  markers:true
@@ -365,8 +341,8 @@ hamburger.addEventListener('click', ()=>{
     scrollTrigger:{
         scroller:"body",
         trigger:".contact",
-        start:"top 70%",
-        end:"top 90%",
+        start:"top 50%",
+        end:"top 60%",
         scrub:4,
         pin:true,
     //  markers:true
@@ -378,18 +354,3 @@ hamburger.addEventListener('click', ()=>{
     // stagger:.5,
     ease: Expo.easeinOut
   });
-//   document.querySelectorAll(".home-content")
-// .forEach(function(elem){
-//   gsap.from(elem, {
-//     // scrollTrigger:{
-//     //     trigger:elem,
-//     //     start:"30% 95%",
-//     //     markers: true,
-//     //   },
-//     y:50,
-//     opacity:0,
-//     duration:2,
-//     delay:4.5,
-//     ease:Expo.easeInOut
-// })
-// })
