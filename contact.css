@@ -728,10 +728,11 @@ footer span a:hover{
     
     .project h3 {
         position: relative;
-        margin-top: -22px;
+        margin-top: -45px;
         text-align: center;
         font-size: 26px;
-        margin-left: -8px;
+        margin-left: -15px;
+        z-index: 9;
     }
     .project h3 a{
         margin-left: -42px;
@@ -754,8 +755,7 @@ footer span a:hover{
 
 
     .contact .max-width .column {
-        margin-left: 22px;
-
+        margin-left: 20px;
         height: 20vw;
     }
     .contact h3{
