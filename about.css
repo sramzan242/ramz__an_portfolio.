@@ -947,13 +947,13 @@ footer span a:hover {
         position: relative;
         top: 30px;
         left: 10px;
-        margin-left: -10vw;
+        margin-left: -6vw;
         align-items: center;
         display: inline-flex;
     }
 
     .wrapper .icon {
-        margin: 0 10px;
+        margin: 0 0px;
         text-align: center;
         cursor: pointer;
         display: flex;
@@ -967,8 +967,8 @@ footer span a:hover {
 
     .wrapper .icon span {
         display: block;
-        height: 50px;
-        width: 50px;
+        height: 60px;
+        width: 60px;
         /* background: #fff; */
         border-radius: 50%;
         position: relative;

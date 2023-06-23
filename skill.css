@@ -209,7 +209,7 @@ nav{
         position: absolute;
         cursor: pointer;
         right: 5%;
-        top: 26%;
+        top: 30%;
         transform: translate(-5%, -50%);
         z-index: 2;
         transition: all 0.7s ease;

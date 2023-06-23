@@ -168,7 +168,7 @@ nav{
         position: absolute;
         cursor: pointer;
         right: 5%;
-        top: 50%;
+        top: 32%;
         transform: translate(-5%, -50%);
         z-index: 2;
         transition: all 0.7s ease;
@@ -615,7 +615,7 @@ height: 100%;
 .contact .right button{
     margin-top: 120px;
     height: 47px;
-    width: 170px;
+    width: 345px;
     border-radius: 6px;
     background: rgb(4, 154, 248);
 
@@ -734,7 +734,7 @@ footer span a:hover{
         margin-left: -8px;
     }
     .project h3 a{
-        margin-left: -35px;
+        margin-left: -42px;
     }
     
     .project .max-width{
@@ -783,7 +783,7 @@ footer span a:hover{
         display: inline-flex;
       }
       .wrapper .icon{
-        margin: 0 10px;
+        margin: 0 5px;
         text-align: center;
         cursor: pointer;
         display: flex;
@@ -872,6 +872,9 @@ footer span a:hover{
       .wrapper .youtube:hover .tooltip,
       .wrapper .youtube:hover .tooltip:before{
         background: #DE463B;
+      }
+      .contact .right button{
+        margin-left: -10vw;
       }
     
 }
